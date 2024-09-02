@@ -1,0 +1,240 @@
+ 
+ .section1 {
+    margin-top: 1px;
+    text-align: center;
+  }
+  
+  .section1 h1 {
+    font-size: 80px;
+  }
+  
+  .section1 h2 {
+    font-size: 36px;
+    margin-top: -45px;
+  }
+  
+  .section1 h3 {
+    font-size: 32px;
+    margin-bottom: 34px;
+    margin-top: -18px;
+  }
+  
+  .section2 {
+    margin-top: 0px;
+    text-align: left;
+    display: flex;
+    margin-left: 12px;
+    margin-right: 4px;
+    margin-bottom: 50px;
+    width: 76rem;
+  }
+  
+  .icon {
+    margin-top: 53px;
+    margin-left: 50px;
+  }
+  
+  .icon img {
+    height: 250px;
+    width: 250px;
+    margin-left: 10rem;
+  }
+  
+  .icon img:hover {
+    transform: scale(1.2);
+  }
+  
+  .discrip {
+    /* border: solid; */
+    margin-left: 101px;
+    border-radius: 25px;
+    margin-left: 300px;
+    padding: 25px;
+    box-shadow: -1px 8px 25px 5px rgb(205, 205, 205);
+  }
+  
+  .discrip h2 {
+    font-size: 42px;
+  }
+  
+  .discrip p {
+    font-size: 27px;
+  }
+  
+  .skils {
+    margin-left: 315px;
+    box-shadow: -1px 8px 25px 5px rgb(205, 205, 205);
+    border-radius: 25px;
+    margin-right: 325px;
+    padding-left: 15px;
+    padding-bottom: 40px;
+    margin-bottom: 50px;
+    width: 55rem;
+  }
+  
+  .skils_icons {
+    padding-right: 50px;
+  }
+  
+  .h-1 {
+    font-size: 160%;
+    display: flex;
+  }
+  
+  .h-1 img {
+    height: 80px;
+    width: 80px;
+    margin-top: 23px;
+  }
+  
+  .skils_icons {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 50px;
+  }
+  
+  .skils_icons svg {
+    padding-left: 20px;
+    padding-right: 50px;
+    height: 60px;
+    width: 60px;
+    margin-left: -32px;
+    margin-right: 10px;
+  }
+  .skils_icons svg:hover {
+    height: 70px;
+    width: 70px;
+  }
+  
+
+  
+  .projet1 {
+    margin-left: 315px;
+    box-shadow: -1px 8px 25px 5px rgb(205, 205, 205);
+    border-radius: 25px;
+    margin-right: 325px;
+    padding-left: 15px;
+    margin-bottom: 50px;
+    /* padding-bottom: 350px; */
+    display: flex;
+    width: 55rem;
+  }
+  
+  .projet1:hover {
+    transform: scale(1.1);
+  }
+  
+  .projet1_icons {
+    padding-right: 50px;
+  }
+  
+  .titre {
+    font-size: 160%;
+    /* display: flex; */
+    color: black;
+  }
+   /* .h1 img {
+    height: 80px;
+    width: 80px;
+    margin-top: 23px;
+   }  */
+  .projet_img img{
+     margin: auto;
+     height: 450px;
+     width: ç00px;
+     margin-left: 100px;
+  }
+  .projet1_icons {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  
+  .skils_icons img {
+    padding-left: 20px;
+    padding-right: 50px;
+    height: 80px;
+    width: 80px;
+  }
+  
+  .avis {
+    display: flex;
+    margin-left: 320px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    width: 55rem;
+  }
+  
+  .avis img {
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+  }
+  
+  .identité {
+    display: flex;
+    padding-top: 1px;
+    padding-bottom: 1px;
+  }
+  
+  .p1 {
+    box-shadow: -1px 8px 25px 5px rgb(205, 205, 205);
+    border-radius: 25px;
+    padding: 20px;
+  }
+  
+  .p1 h1 {
+    font-size: 20px;
+    padding-bottom: 1px;
+    margin-bottom: 0px;
+  }
+  
+  .p1 h4 {
+    font-size: 17px;
+    color: gray;
+    margin-top: 0px;
+  }
+  
+  .p1 p {
+    color: gray;
+  }
+  
+  .p2 {
+    box-shadow: -1px 8px 25px 5px rgb(205, 205, 205);
+    border-radius: 25px;
+    padding: 20px;
+    margin-left: 20px;
+  }
+  
+  .p2 h1 {
+    font-size: 20px;
+    padding-bottom: 1px;
+    margin-bottom: 0px;
+  }
+  
+  .p2 h4 {
+    font-size: 17px;
+    color: gray;
+    margin-top: 0px;
+  }
+  
+  .p2 p {
+    color: gray;
+  }
+  
+  .section3 {
+    display: flex;
+    margin-left: 550px;
+    margin-top: 48px;
+  }
+  
+  .section3 h1 {
+    font-size: 35px;
+  }
+  
+  .section3 img {
+    margin-top: 20px;
+    height: 60px;
+    width: 60px;
+  }
+  
+ 

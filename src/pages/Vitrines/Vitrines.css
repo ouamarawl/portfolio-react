@@ -1,0 +1,25 @@
+.section {
+    background-color: #e3e3e3;
+    height: 50rem;
+    width: 105rem;
+  }
+  #carouselExample {
+    margin: 38px 73px;
+  }
+  .carousel-inner {
+    border-radius: 20px;
+  }
+  .discription {
+    /* text-align: center; */
+    margin: 85px 130px 117px;
+  }
+  
+  .discription p {
+    font-size: 20px;
+  }
+  .foncyionalité {
+    margin-top: 45px;
+  }
+  .tech {
+    margin-top: 45px;
+  }

@@ -1,6 +1,3 @@
-.container-contact {
-  margin-left: 5rem ;
-}
 .form {
     text-align: center;
     background-color: rgb(50, 19, 148);
@@ -84,11 +81,10 @@
     transform: scale(1.2);
   }
   
- footer {
+  footer {
     text-align: center;
     padding: 20px;
-    margin-right: 5rem;
-}
+  }
   
   footer img {
     border-radius: 100%;

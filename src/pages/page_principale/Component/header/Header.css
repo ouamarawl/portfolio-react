@@ -1,0 +1,41 @@
+.navbar {
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+  }
+  .navbar img {
+    display: block;
+    height: 150px;
+    width: 150px;
+    position: fixed;
+    left: 7rem;
+    z-index: 1000; 
+  }
+  .navbar img:hover {
+    transform: scale(1.2);
+  }
+  .navbar button { 
+    background-color:rgb(50, 19, 148);
+    height: 100px;
+    width: 100px;
+    margin-top: 40px;
+    border-radius: 100%;
+    cursor: pointer;
+    display: block;
+    position: fixed;  
+    left: 89rem;
+    z-index: 1000;   
+  }
+  .navbar p {
+    font-size: 22px;
+    height: 50px;
+    width: 86px;
+    color: white;
+    margin-bottom: 40px;
+    margin-top: 13px;
+    text-decoration: none;
+  }
+  
+  .navbar button:hover {
+    transform: scale(1.2);
+  }
