@@ -1,6 +1,6 @@
 .section {
     background-color: #e3e3e3;
-    height: 50rem;
+    height: 102rem;
     width: 105rem;
   }
   #carouselExample {
@@ -13,9 +13,10 @@
     /* text-align: center; */
     margin: 85px 130px 117px;
   }
-  
+
   .discription p {
     font-size: 20px;
+    color: black;
   }
   .foncyionalité {
     margin-top: 45px;

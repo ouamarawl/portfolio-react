@@ -4,12 +4,12 @@ import moi2 from '../../../../assets/icon/moi2.jpg'
 function Skils() {
     
   return (
-    <div class="skils">
-    <div class="h-1">
+    <div className="skils">
+    <div className="h-1">
       <h1>My Skils</h1>
       <img src={moi2} alt="moi2" />
     </div>
-    <div class="skils_icons">
+    <div className="skils_icons">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 48 48"

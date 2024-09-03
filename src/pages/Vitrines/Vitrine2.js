@@ -1,6 +1,8 @@
 import React from 'react'
 import './Vitrines.css'
-
+import promo1 from '../../image projets/promotion/Capture d’écran 2024-07-24 185008.jpg'
+import promo2 from '../../image projets/promotion/Capture d’écran 2024-07-24 185138.jpg'
+import promo3 from '../../image projets/promotion/Capture d’écran 2024-07-24 185234.jpg'
 function Vitrine2() {
   return (
     <div className='section'>
@@ -8,21 +10,21 @@ function Vitrine2() {
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img
-          src="image projets/promotion/Capture d’écran 2024-07-24 185008.jpg"
+          src= {promo1}
           class="d-block w-100"
           alt="..."
         />
       </div>
       <div class="carousel-item">
         <img
-          src="image projets/promotion/Capture d’écran 2024-07-24 185138.jpg"
+          src={promo2}
           class="d-block w-100"
           alt="..."
         />
       </div>
       <div class="carousel-item">
         <img
-          src="image projets/promotion/Capture d’écran 2024-07-24 185234.jpg"
+          src={promo3}
           class="d-block w-100"
           alt="..."
         />

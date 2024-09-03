@@ -1,5 +1,9 @@
     import React from 'react'
     import './Vitrines.css'
+    import cyborg1 from '../../image projets/site-react/Capture d’écran 2024-08-07 170536.jpg'
+    import cyborg2 from '../../image projets/site-react/Capture d’écran 2024-08-07 170701.jpg'
+    import cyborg3 from '../../image projets/site-react/Capture d’écran 2024-08-07 170846.jpg'
+    import cyborg4 from '../../image projets/site-react/Capture d’écran 2024-08-07 170940.jpg'
     function VItrine4() {
       return (
         <div className='section' style={{ backgroundColor: '#ec6090' }}>
@@ -8,28 +12,28 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img
-              src="image projets/site-react/Capture d’écran 2024-08-07 170536.jpg"
+              src= {cyborg1}
               class="d-block w-100"
               alt="..."
             />
           </div>
           <div class="carousel-item">
             <img
-              src="image projets/site-react/Capture d’écran 2024-08-07 170701.jpg"
+              src={cyborg2}
               class="d-block w-100"
               alt="..."
             />
           </div>
           <div class="carousel-item">
             <img
-              src="image projets/site-react/Capture d’écran 2024-08-07 170846.jpg"
+              src={cyborg3}
               class="d-block w-100"
               alt="..."
             />
           </div>
           <div class="carousel-item">
             <img
-              src="image projets/site-react/Capture d’écran 2024-08-07 170940.jpg"
+              src={cyborg4}
               class="d-block w-100"
               alt="..."
             />

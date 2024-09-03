@@ -25,7 +25,9 @@ function Calculatrice() {
   };
 
   return (
+    
     <div className='section_calc'>
+      <div className='container_calc'>
       <div className="calculatrice">
         <div className="display">
           <h1 id="j">{display}</h1>
@@ -55,65 +57,66 @@ function Calculatrice() {
           <button onClick={calcule} id="b2">=</button>
         </div>
       </div>
-
-      <div className="discription">
-        <h3>Description of the Web Calculator</h3>
-        <p>
-            This web calculator is an interactive application designed to perform basic arithmetic operations.<br />
-            It was developed using HTML for structure, CSS for styling, and JavaScript for calculation logic.
-        </p>
-        <div className="foncyionalité">
-            <h3>Features</h3>
-            <ul>
-                <li>
-                    <h3>User Interface:</h3>
-                </li>
-                <p>
-                    An intuitive and user-friendly interface with buttons for digits and basic arithmetic operations.<br />
-                    The display screen shows the current input and results.
-                </p>
-                <li>
-                    <h3>Responsive Design:</h3>
-                </li>
-                <p>
-                    The calculator is fully responsive, offering an optimal user experience on all types of devices,<br />
-                    including desktops, tablets, and smartphones.
-                </p>
-                <li>
-                    <h3>Calculation Logic:</h3>
-                </li>
-                <p>
-                    JavaScript is used to handle the calculation logic, ensuring accurate and fast results for all basic operations.<br />
-                </p>
-            </ul>
-        </div>
-        <div className="tech">
-            <h3>Technologies Used</h3>
-            <ul>
-                <li>
-                    <h3>HTML:</h3>
-                </li>
-                <p>
-                    Used to structure the different parts of the calculator, including the display screen and buttons.<br />
-                </p>
-                <li>
-                    <h3>CSS:</h3>
-                </li>
-                <p>
-                    Used to style the calculator, ensuring an attractive visual presentation and a consistent layout.<br />
-                    Advanced CSS techniques, such as flexbox, were employed to create a modern and adaptable design.
-                </p>
-                <li>
-                    <h3>JavaScript:</h3>
-                </li>
-                <p>
-                    Used to implement the calculation logic, ensuring the functionality of the calculator's arithmetic operations.<br />
-                </p>
-            </ul>
-        </div>
-      </div>
-      
+     </div>
+     <div className="discription">
+     <h3>Description of the Web Calculator</h3>
+     <p>
+         This web calculator is an interactive application designed to perform basic arithmetic operations.<br />
+         It was developed using HTML for structure, CSS for styling, and JavaScript for calculation logic.
+     </p>
+     <div className="foncyionalité">
+         <h3>Features</h3>
+         <ul>
+             <li>
+                 <h3>User Interface:</h3>
+             </li>
+             <p>
+                 An intuitive and user-friendly interface with buttons for digits and basic arithmetic operations.<br />
+                 The display screen shows the current input and results.
+             </p>
+             <li>
+                 <h3>Responsive Design:</h3>
+             </li>
+             <p>
+                 The calculator is fully responsive, offering an optimal user experience on all types of devices,<br />
+                 including desktops, tablets, and smartphones.
+             </p>
+             <li>
+                 <h3>Calculation Logic:</h3>
+             </li>
+             <p>
+                 JavaScript is used to handle the calculation logic, ensuring accurate and fast results for all basic operations.<br />
+             </p>
+         </ul>
+     </div>
+     <div className="tech">
+         <h3>Technologies Used</h3>
+         <ul>
+             <li>
+                 <h3>HTML:</h3>
+             </li>
+             <p>
+                 Used to structure the different parts of the calculator, including the display screen and buttons.<br />
+             </p>
+             <li>
+                 <h3>CSS:</h3>
+             </li>
+             <p>
+                 Used to style the calculator, ensuring an attractive visual presentation and a consistent layout.<br />
+                 Advanced CSS techniques, such as flexbox, were employed to create a modern and adaptable design.
+             </p>
+             <li>
+                 <h3>JavaScript:</h3>
+             </li>
+             <p>
+                 Used to implement the calculation logic, ensuring the functionality of the calculator's arithmetic operations.<br />
+             </p>
+         </ul>
+     </div>
+     </div>
     </div>
+   
+   
   );
 }
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import './Sections.css'
-import moi from '../../../../assets/icon/wail-removebg-preview.png'
+import moi from '../../../../assets/img/wail_tr-removebg-preview.png'
 function Formulaire() {
   return (
     <div class="form">
